@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- *
  * @author kuba
  */
 @RestController
@@ -21,8 +20,8 @@ public class HelloWorldController {
 
     private static final String MESSAGE = "Hello!";
 
-    @RequestMapping(method=RequestMethod.GET)
-    public String sayHello( String name) {
+    @RequestMapping(method = RequestMethod.GET)
+    public String sayHello(String name) {
         return MESSAGE;
     }
 
