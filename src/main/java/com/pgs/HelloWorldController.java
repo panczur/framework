@@ -15,15 +15,15 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author kuba
  */
-@RestController
-@RequestMapping("/hello-world")
-public class HelloWorldController {
-
-    private static final String MESSAGE = "Hello!";
-
-    @RequestMapping(method=RequestMethod.GET)
-    public String sayHello( String name) {
-        return MESSAGE;
-    }
-
-}
+//@RestController
+//@RequestMapping("/hello-world")
+//public class HelloWorldController {
+//
+//    private static final String MESSAGE = "Hello!";
+//
+//    @RequestMapping(method=RequestMethod.GET)
+//    public String sayHello( String name) {
+//        return MESSAGE;
+//    }
+//
+//}
